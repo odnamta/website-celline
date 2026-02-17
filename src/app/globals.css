@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --color-sage: #8B9D83;
+  --color-sage-light: #C5D1BF;
+  --color-sage-dark: #5C6B56;
+  --color-cream: #FAF8F5;
+  --color-warm-gray: #6B6560;
+  --color-charcoal: #2D2926;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
