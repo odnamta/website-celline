@@ -1,15 +1,16 @@
-import { Navbar } from '@/components/layout/Navbar'
+import { PageWrapper } from '@/components/layout/PageWrapper'
 import { Hero } from '@/components/home/Hero'
 import { Highlights } from '@/components/home/Highlights'
-import { Footer } from '@/components/layout/Footer'
+import { OrganizationsPreview } from '@/components/home/Organizations'
+import { FeaturedStats } from '@/components/home/FeaturedStats'
 
 export default function HomePage() {
   return (
-    <main>
-      <Navbar />
+    <PageWrapper>
       <Hero />
       <Highlights />
-      <Footer />
-    </main>
+      <OrganizationsPreview />
+      <FeaturedStats />
+    </PageWrapper>
   )
 }

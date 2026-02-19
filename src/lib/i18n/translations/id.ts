@@ -1,0 +1,152 @@
+import type { Translations } from '../types'
+
+export const id: Translations = {
+  nav: {
+    home: 'Beranda',
+    about: 'Tentang',
+    impact: 'Dampak',
+    mediaKit: 'Media Kit',
+    contact: 'Kontak',
+  },
+  hero: {
+    title: 'dr. Celline Wijaya, MMSc',
+    tagline: 'Dokter. Kreator. Pelari.',
+    subtitle: 'Harvard Global Health alumna. Membangun jembatan antara kedokteran, edukasi, dan inspirasi.',
+    cta: {
+      instagram: 'Instagram — 237K',
+      collaborate: 'Kolaborasi',
+    },
+    stats: {
+      followers: 'Followers',
+      harvard: 'Harvard',
+      harvardSub: 'MMSc Global Health',
+      organizations: '4',
+      organizationsSub: 'Organisasi',
+      halfMarathon: 'Half Marathon',
+    },
+  },
+  highlights: {
+    sectionTitle: 'Menginspirasi dari Berbagai Sisi',
+    sectionSubtitle: 'Dokter, kreator, ibu, pelari — setiap peran adalah panggung untuk menginspirasi.',
+    medicine: {
+      title: 'Kedokteran & Akademik',
+      description: 'Dokter umum & dosen di FK Universitas Ciputra. Alumna Harvard MMSc Global Health Delivery melalui beasiswa LPDP.',
+    },
+    creator: {
+      title: 'Konten Kreator',
+      description: 'Mengedukasi 300K+ pengikut di Instagram, TikTok, & YouTube tentang kesehatan, gaya hidup sehat, dan perjalanan akademik.',
+    },
+    organizations: {
+      title: 'Pendiri & Pemimpin',
+      description: 'Mendirikan 4 organisasi yang berdampak: Empower Indonesia, Dokter Pelari, Celline Runs, dan Healthworks Indonesia.',
+    },
+    runner: {
+      title: 'Dokter Pelari',
+      description: 'Half-marathoner yang membuktikan bahwa dokter juga bisa aktif berolahraga. Menginspirasi gaya hidup sehat.',
+    },
+  },
+  orgsPreview: {
+    sectionTitle: 'Organisasi & Dampak',
+    sectionSubtitle: '4 organisasi yang didirikan untuk memberdayakan, mengedukasi, dan menginspirasi.',
+    viewAll: 'Lihat Semua Organisasi',
+  },
+  featuredStats: {
+    sectionTitle: 'Dalam Angka',
+    followers: 'Total Followers',
+    subscribers: 'YouTube Subscribers',
+    countries: '15+',
+    countriesSub: 'Negara Dijangkau',
+    scholarships: '100+',
+    scholarshipsSub: 'Penerima Beasiswa Empower',
+  },
+  about: {
+    pageTitle: 'Tentang Celline',
+    bioTitle: 'Perjalanan Saya',
+    bio: [
+      'Saya dr. Celline Wijaya, MMSc — seorang dokter, dosen, content creator, dan ibu dari dua anak. Lahir dan besar di Surabaya, saya memiliki passion mendalam untuk kedokteran, edukasi, dan memberdayakan sesama.',
+      'Setelah menyelesaikan pendidikan kedokteran, saya berkesempatan melanjutkan studi Master of Medical Sciences in Global Health Delivery di Harvard University melalui beasiswa LPDP. Pengalaman di Harvard membuka mata saya tentang bagaimana kesehatan global bisa ditingkatkan melalui pendekatan sistematis dan inovatif.',
+      'Saat ini saya berperan sebagai dosen di Fakultas Kedokteran Universitas Ciputra Surabaya, sambil terus aktif sebagai content creator yang mengedukasi ratusan ribu followers tentang kesehatan dan gaya hidup sehat.',
+      'Di luar dunia kedokteran, saya adalah seorang pelari — half-marathoner yang percaya bahwa hidup sehat dimulai dari bergerak. Saya juga mendirikan beberapa organisasi sosial, termasuk Empower Indonesia yang memberikan beasiswa bagi individu berbakat dari latar belakang ekonomi terbatas.',
+    ],
+    timelineTitle: 'Perjalanan Waktu',
+    personalTitle: 'Di Balik Layar',
+    personalSubtitle: 'Bukan hanya dokter dan kreator — juga ibu, pelari, dan pengajar.',
+    running: {
+      title: 'Pelari',
+      description: 'Half-marathoner aktif. Pendiri Dokter Pelari dan Celline Runs, membuktikan bahwa hidup sehat itu bisa menyenangkan.',
+    },
+    family: {
+      title: 'Ibu & Istri',
+      description: 'Ibu dari Alma (4 tahun) dan Sofia (7 bulan). Istri dari Dio Atmando. Keluarga adalah motivasi terbesar.',
+    },
+    teaching: {
+      title: 'Pengajar',
+      description: 'Dosen di Fakultas Kedokteran Universitas Ciputra. Membentuk generasi dokter masa depan Indonesia.',
+    },
+  },
+  impact: {
+    pageTitle: 'Dampak & Organisasi',
+    pageSubtitle: 'Memberdayakan melalui edukasi, kesehatan, dan komunitas.',
+    researchTitle: 'Riset & Akademik',
+    researchSubtitle: 'Kontribusi di dunia akademik dan riset kesehatan global.',
+    thesisTitle: 'Tesis Harvard',
+    thesisDescription: 'Master of Medical Sciences in Global Health Delivery — meneliti pendekatan inovatif dalam penyampaian layanan kesehatan global.',
+    teachingTitle: 'Pengajaran',
+    teachingDescription: 'Dosen di Fakultas Kedokteran Universitas Ciputra Surabaya. Membimbing dan menginspirasi calon dokter masa depan Indonesia.',
+  },
+  mediaKit: {
+    pageTitle: 'Media Kit',
+    pageSubtitle: 'Data dan informasi untuk kolaborasi brand dan media.',
+    platformsTitle: 'Platform & Statistik',
+    audienceTitle: 'Demografi Audiens',
+    audienceAge: '18-34 tahun',
+    audienceGender: '75% Perempuan',
+    audienceLocation: 'Indonesia (85%)',
+    audienceAgeSub: 'Rentang Usia Utama',
+    audienceGenderSub: 'Komposisi Gender',
+    audienceLocationSub: 'Lokasi Utama',
+    collaborationTitle: 'Mari Berkolaborasi',
+    collaborationSubtitle: 'Terbuka untuk kolaborasi yang sejalan dengan nilai edukasi, kesehatan, dan pemberdayaan.',
+    collaborationTypes: [
+      'Brand Partnership & Endorsement',
+      'Speaking Engagement & Webinar',
+      'Content Collaboration',
+      'Media Interview & Feature',
+    ],
+    ctaButton: 'Hubungi Saya',
+  },
+  contact: {
+    pageTitle: 'Hubungi Saya',
+    pageSubtitle: 'Untuk kolaborasi, speaking engagement, atau sekadar menyapa.',
+    form: {
+      name: 'Nama Lengkap',
+      email: 'Email',
+      subject: 'Subjek',
+      message: 'Pesan',
+      send: 'Kirim Pesan',
+      sending: 'Mengirim...',
+      success: 'Pesan terkirim! Saya akan segera merespons.',
+      error: 'Gagal mengirim pesan. Silakan coba lagi.',
+    },
+    info: {
+      title: 'Informasi Kontak',
+      email: 'Email',
+      location: 'Surabaya, Indonesia',
+      social: 'Media Sosial',
+    },
+  },
+  footer: {
+    copyright: 'Hak cipta',
+    madeWith: 'Dibuat dengan',
+  },
+  common: {
+    learnMore: 'Selengkapnya',
+    viewAll: 'Lihat Semua',
+    backToHome: 'Kembali ke Beranda',
+  },
+  notFound: {
+    title: 'Halaman Tidak Ditemukan',
+    subtitle: 'Maaf, halaman yang Anda cari tidak tersedia.',
+    backHome: 'Kembali ke Beranda',
+  },
+}

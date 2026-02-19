@@ -1,21 +1,73 @@
+'use client'
+
+import Link from 'next/link'
+import { Heart } from 'lucide-react'
+import { useLanguage } from '@/lib/i18n/context'
+import { SocialLinks } from '@/components/shared/SocialLinks'
+import { navItems } from '@/lib/data/navigation'
+import { contactEmail } from '@/lib/data/social'
+
 export function Footer() {
+  const { t } = useLanguage()
+
   return (
-    <footer className="py-12 bg-[var(--color-charcoal)] text-white/70">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-        <div className="flex items-center justify-center gap-6 mb-6">
-          <a href="https://instagram.com/cellinewijaya" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-            Instagram
-          </a>
-          <a href="https://tiktok.com/@cellinewijaya" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-            TikTok
-          </a>
-          <a href="https://linkedin.com/in/cellinewijaya" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-            LinkedIn
-          </a>
+    <footer className="py-16 bg-charcoal text-white/70">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="grid sm:grid-cols-3 gap-10 mb-12">
+          {/* Brand */}
+          <div>
+            <h3 className="font-serif text-xl font-semibold text-white mb-3">
+              Celline Wijaya
+            </h3>
+            <p className="text-sm leading-relaxed">
+              {t.hero.tagline}
+              <br />
+              Harvard Global Health Alumna.
+            </p>
+          </div>
+
+          {/* Quick nav */}
+          <div>
+            <h4 className="text-sm font-semibold text-white mb-3 uppercase tracking-wider">
+              Navigation
+            </h4>
+            <div className="space-y-2">
+              {navItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="block text-sm hover:text-white transition-colors"
+                >
+                  {t.nav[item.labelKey]}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Contact & social */}
+          <div>
+            <h4 className="text-sm font-semibold text-white mb-3 uppercase tracking-wider">
+              {t.contact.info.social}
+            </h4>
+            <SocialLinks variant="light" className="mb-4" />
+            <a
+              href={`mailto:${contactEmail}`}
+              className="text-sm hover:text-white transition-colors"
+            >
+              {contactEmail}
+            </a>
+          </div>
         </div>
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} dr. Celline Wijaya, M.Sc. All rights reserved.
-        </p>
+
+        {/* Bottom bar */}
+        <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-sm">
+            &copy; {new Date().getFullYear()} dr. Celline Wijaya, MMSc
+          </p>
+          <p className="text-sm flex items-center gap-1">
+            {t.footer.madeWith} <Heart className="w-3.5 h-3.5 text-dusty-rose" />
+          </p>
+        </div>
       </div>
     </footer>
   )

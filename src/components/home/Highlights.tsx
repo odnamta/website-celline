@@ -1,50 +1,42 @@
-const HIGHLIGHTS = [
-  {
-    title: 'Kedokteran & Akademik',
-    description: 'Dokter umum yang menempuh S2 Global Health di Harvard University melalui beasiswa LPDP. Memulai residensi OBGYN di 2026.',
-    icon: '🩺',
-  },
-  {
-    title: 'Konten Kreator',
-    description: 'Mengedukasi 250K+ pengikut di Instagram & TikTok tentang kesehatan, gaya hidup sehat, dan perjalanan akademik.',
-    icon: '📱',
-  },
-  {
-    title: 'Empower Organization',
-    description: 'Mendirikan Empower untuk memberikan beasiswa kepada individu berbakat dari latar belakang ekonomi terbatas.',
-    icon: '🌟',
-  },
-  {
-    title: 'Dokter Pelari',
-    description: 'Komunitas yang menggabungkan dunia kedokteran dan olahraga lari, membuktikan bahwa dokter juga bisa aktif berolahraga.',
-    icon: '🏃‍♀️',
-  },
-]
+'use client'
+
+import { Stethoscope, Smartphone, Heart, Activity } from 'lucide-react'
+import { useLanguage } from '@/lib/i18n/context'
+import { AnimateOnScroll } from '@/components/shared/AnimateOnScroll'
+import { SectionHeading } from '@/components/shared/SectionHeading'
+import { Card } from '@/components/shared/Card'
+
+const icons = [Stethoscope, Smartphone, Heart, Activity]
+const keys = ['medicine', 'creator', 'organizations', 'runner'] as const
 
 export function Highlights() {
+  const { t } = useLanguage()
+
   return (
     <section className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <h2 className="text-3xl font-bold text-center mb-4">
-          Menginspirasi dari Berbagai Sisi
-        </h2>
-        <p className="text-center text-[var(--color-warm-gray)] mb-12 max-w-xl mx-auto">
-          Dokter, kreator, ibu, pelari — setiap peran adalah panggung untuk menginspirasi.
-        </p>
+        <SectionHeading
+          title={t.highlights.sectionTitle}
+          subtitle={t.highlights.sectionSubtitle}
+        />
 
         <div className="grid sm:grid-cols-2 gap-6">
-          {HIGHLIGHTS.map((item) => (
-            <div
-              key={item.title}
-              className="p-6 rounded-2xl border border-[var(--color-sage-light)]/40 hover:border-[var(--color-sage)]/60 transition-colors"
-            >
-              <span className="text-3xl mb-3 block">{item.icon}</span>
-              <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-              <p className="text-sm text-[var(--color-warm-gray)] leading-relaxed">
-                {item.description}
-              </p>
-            </div>
-          ))}
+          {keys.map((key, i) => {
+            const Icon = icons[i]
+            return (
+              <AnimateOnScroll key={key} delay={i * 0.1}>
+                <Card>
+                  <Icon className="w-8 h-8 text-sage mb-4" />
+                  <h3 className="text-lg font-serif font-semibold text-charcoal mb-2">
+                    {t.highlights[key].title}
+                  </h3>
+                  <p className="text-sm text-warm-gray-500 leading-relaxed">
+                    {t.highlights[key].description}
+                  </p>
+                </Card>
+              </AnimateOnScroll>
+            )
+          })}
         </div>
       </div>
     </section>

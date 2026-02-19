@@ -1,0 +1,152 @@
+import type { Translations } from '../types'
+
+export const en: Translations = {
+  nav: {
+    home: 'Home',
+    about: 'About',
+    impact: 'Impact',
+    mediaKit: 'Media Kit',
+    contact: 'Contact',
+  },
+  hero: {
+    title: 'dr. Celline Wijaya, MMSc',
+    tagline: 'Doctor. Creator. Runner.',
+    subtitle: 'Harvard Global Health alumna. Bridging medicine, education, and inspiration.',
+    cta: {
+      instagram: 'Instagram — 237K',
+      collaborate: 'Collaborate',
+    },
+    stats: {
+      followers: 'Followers',
+      harvard: 'Harvard',
+      harvardSub: 'MMSc Global Health',
+      organizations: '4',
+      organizationsSub: 'Organizations',
+      halfMarathon: 'Half Marathon',
+    },
+  },
+  highlights: {
+    sectionTitle: 'Inspiring from Every Angle',
+    sectionSubtitle: 'Doctor, creator, mother, runner — every role is a platform to inspire.',
+    medicine: {
+      title: 'Medicine & Academia',
+      description: 'Medical doctor & lecturer at UC School of Medicine. Harvard MMSc Global Health Delivery alumna via LPDP scholarship.',
+    },
+    creator: {
+      title: 'Content Creator',
+      description: 'Educating 300K+ followers on Instagram, TikTok, & YouTube about health, wellness, and the academic journey.',
+    },
+    organizations: {
+      title: 'Founder & Leader',
+      description: 'Founded 4 impactful organizations: Empower Indonesia, Dokter Pelari, Celline Runs, and Healthworks Indonesia.',
+    },
+    runner: {
+      title: 'Doctor Runner',
+      description: 'Half-marathoner proving that doctors can also lead active lifestyles. Inspiring healthy living through running.',
+    },
+  },
+  orgsPreview: {
+    sectionTitle: 'Organizations & Impact',
+    sectionSubtitle: '4 organizations founded to empower, educate, and inspire.',
+    viewAll: 'View All Organizations',
+  },
+  featuredStats: {
+    sectionTitle: 'By the Numbers',
+    followers: 'Total Followers',
+    subscribers: 'YouTube Subscribers',
+    countries: '15+',
+    countriesSub: 'Countries Reached',
+    scholarships: '100+',
+    scholarshipsSub: 'Empower Scholarship Recipients',
+  },
+  about: {
+    pageTitle: 'About Celline',
+    bioTitle: 'My Journey',
+    bio: [
+      "I'm dr. Celline Wijaya, MMSc — a medical doctor, lecturer, content creator, and mother of two. Born and raised in Surabaya, I have a deep passion for medicine, education, and empowering others.",
+      'After completing my medical degree, I had the opportunity to pursue a Master of Medical Sciences in Global Health Delivery at Harvard University through the LPDP scholarship. The Harvard experience opened my eyes to how global health can be improved through systematic and innovative approaches.',
+      "Currently, I serve as a lecturer at the University of Ciputra School of Medicine in Surabaya, while continuing to actively create content that educates hundreds of thousands of followers about health and wellness.",
+      "Beyond medicine, I'm a runner — a half-marathoner who believes that a healthy life starts with movement. I also founded several social organizations, including Empower Indonesia which provides scholarships for talented individuals from economically disadvantaged backgrounds.",
+    ],
+    timelineTitle: 'Timeline',
+    personalTitle: 'Behind the Scenes',
+    personalSubtitle: 'Not just a doctor and creator — also a mother, runner, and educator.',
+    running: {
+      title: 'Runner',
+      description: 'Active half-marathoner. Founder of Dokter Pelari and Celline Runs, proving that healthy living can be fun.',
+    },
+    family: {
+      title: 'Mother & Wife',
+      description: 'Mother of Alma (4 years) and Sofia (7 months). Wife of Dio Atmando. Family is the greatest motivation.',
+    },
+    teaching: {
+      title: 'Educator',
+      description: "Lecturer at the University of Ciputra School of Medicine. Shaping Indonesia's future generation of doctors.",
+    },
+  },
+  impact: {
+    pageTitle: 'Impact & Organizations',
+    pageSubtitle: 'Empowering through education, health, and community.',
+    researchTitle: 'Research & Academia',
+    researchSubtitle: 'Contributions to academia and global health research.',
+    thesisTitle: 'Harvard Thesis',
+    thesisDescription: 'Master of Medical Sciences in Global Health Delivery — researching innovative approaches to global health service delivery.',
+    teachingTitle: 'Teaching',
+    teachingDescription: "Lecturer at the University of Ciputra School of Medicine, Surabaya. Mentoring and inspiring Indonesia's future doctors.",
+  },
+  mediaKit: {
+    pageTitle: 'Media Kit',
+    pageSubtitle: 'Data and information for brand and media collaborations.',
+    platformsTitle: 'Platforms & Statistics',
+    audienceTitle: 'Audience Demographics',
+    audienceAge: '18-34 years old',
+    audienceGender: '75% Female',
+    audienceLocation: 'Indonesia (85%)',
+    audienceAgeSub: 'Primary Age Range',
+    audienceGenderSub: 'Gender Composition',
+    audienceLocationSub: 'Primary Location',
+    collaborationTitle: "Let's Collaborate",
+    collaborationSubtitle: 'Open to collaborations aligned with education, health, and empowerment values.',
+    collaborationTypes: [
+      'Brand Partnership & Endorsement',
+      'Speaking Engagement & Webinar',
+      'Content Collaboration',
+      'Media Interview & Feature',
+    ],
+    ctaButton: 'Get in Touch',
+  },
+  contact: {
+    pageTitle: 'Get in Touch',
+    pageSubtitle: 'For collaborations, speaking engagements, or just to say hello.',
+    form: {
+      name: 'Full Name',
+      email: 'Email',
+      subject: 'Subject',
+      message: 'Message',
+      send: 'Send Message',
+      sending: 'Sending...',
+      success: 'Message sent! I will respond shortly.',
+      error: 'Failed to send message. Please try again.',
+    },
+    info: {
+      title: 'Contact Information',
+      email: 'Email',
+      location: 'Surabaya, Indonesia',
+      social: 'Social Media',
+    },
+  },
+  footer: {
+    copyright: 'Copyright',
+    madeWith: 'Made with',
+  },
+  common: {
+    learnMore: 'Learn More',
+    viewAll: 'View All',
+    backToHome: 'Back to Home',
+  },
+  notFound: {
+    title: 'Page Not Found',
+    subtitle: 'Sorry, the page you are looking for does not exist.',
+    backHome: 'Back to Home',
+  },
+}
