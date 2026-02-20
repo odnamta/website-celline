@@ -6,6 +6,7 @@ import { ResearchSection } from '@/components/impact/ResearchSection'
 export const metadata: Metadata = {
   title: 'Dampak & Organisasi',
   description: '4 organisasi yang didirikan Celline Wijaya untuk memberdayakan, mengedukasi, dan menginspirasi.',
+  alternates: { canonical: '/impact' },
 }
 
 export default function ImpactPage() {

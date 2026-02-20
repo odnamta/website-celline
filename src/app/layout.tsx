@@ -99,11 +99,15 @@ export default function RootLayout({
                 'https://youtube.com/@cellinewijaya',
                 'https://linkedin.com/in/maria-cellina-wijaya',
               ],
+              image: 'https://cellinewijaya.com/images/celline-hero.jpg',
+              description: 'Medical doctor, Harvard Global Health alumna, content creator, founder of Empower Indonesia & Dokter Pelari.',
               email: 'cellinewijaya.md@gmail.com',
               url: 'https://cellinewijaya.com',
             }),
           }}
         />
+        <link rel="preconnect" href="https://formspree.io" />
+        <link rel="dns-prefetch" href="https://va.vercel-analytics.com" />
       </head>
       <body className="min-h-screen antialiased font-sans">
         <a

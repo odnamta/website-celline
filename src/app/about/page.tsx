@@ -7,6 +7,7 @@ import { PersonalSection } from '@/components/about/PersonalSection'
 export const metadata: Metadata = {
   title: 'Tentang',
   description: 'Perjalanan dr. Celline Wijaya — dari Surabaya ke Harvard, dari kedokteran ke content creation.',
+  alternates: { canonical: '/about' },
 }
 
 export default function AboutPage() {

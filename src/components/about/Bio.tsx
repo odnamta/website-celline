@@ -1,8 +1,8 @@
 'use client'
 
+import Image from 'next/image'
 import { useLanguage } from '@/lib/i18n/context'
 import { AnimateOnScroll } from '@/components/shared/AnimateOnScroll'
-import { PhotoPlaceholder } from '@/components/shared/PhotoPlaceholder'
 
 export function Bio() {
   const { t } = useLanguage()
@@ -13,7 +13,15 @@ export function Bio() {
         <div className="grid lg:grid-cols-5 gap-12 items-start">
           {/* Photo */}
           <AnimateOnScroll className="lg:col-span-2 flex justify-center">
-            <PhotoPlaceholder size="lg" />
+            <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-3xl overflow-hidden border-2 border-sage-200 shadow-xl">
+              <Image
+                src="/images/celline-hero.jpg"
+                alt="dr. Celline Wijaya, MMSc"
+                width={900}
+                height={1200}
+                className="w-full h-full object-cover"
+              />
+            </div>
           </AnimateOnScroll>
 
           {/* Bio text */}

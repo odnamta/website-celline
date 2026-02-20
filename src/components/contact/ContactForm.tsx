@@ -45,9 +45,15 @@ export function ContactForm() {
     return (
       <div className="p-8 rounded-2xl border border-sage-200 bg-sage-50 text-center">
         <CheckCircle className="w-12 h-12 text-sage mx-auto mb-4" />
-        <p className="text-lg font-serif font-semibold text-charcoal">
+        <p className="text-lg font-serif font-semibold text-charcoal mb-4">
           {t.contact.form.success}
         </p>
+        <button
+          onClick={() => setStatus('idle')}
+          className="text-sm text-sage-600 hover:text-sage-dark underline underline-offset-2"
+        >
+          {t.contact.form.sendAnother}
+        </button>
       </div>
     )
   }
@@ -63,6 +69,7 @@ export function ContactForm() {
           name="name"
           type="text"
           required
+          placeholder={t.contact.form.name}
           className="w-full px-4 py-3 rounded-xl border border-warm-gray-200 bg-cream/50 text-charcoal placeholder:text-warm-gray-300 focus:outline-none focus:ring-2 focus:ring-sage focus:border-sage focus:bg-white transition-all"
         />
       </div>
@@ -76,6 +83,7 @@ export function ContactForm() {
           name="email"
           type="email"
           required
+          placeholder="email@example.com"
           className="w-full px-4 py-3 rounded-xl border border-warm-gray-200 bg-cream/50 text-charcoal placeholder:text-warm-gray-300 focus:outline-none focus:ring-2 focus:ring-sage focus:border-sage focus:bg-white transition-all"
         />
       </div>
@@ -89,6 +97,7 @@ export function ContactForm() {
           name="subject"
           type="text"
           required
+          placeholder={t.contact.form.subject}
           className="w-full px-4 py-3 rounded-xl border border-warm-gray-200 bg-cream/50 text-charcoal placeholder:text-warm-gray-300 focus:outline-none focus:ring-2 focus:ring-sage focus:border-sage focus:bg-white transition-all"
         />
       </div>
@@ -102,6 +111,7 @@ export function ContactForm() {
           name="message"
           rows={5}
           required
+          placeholder={t.contact.form.message}
           className="w-full px-4 py-3 rounded-xl border border-warm-gray-200 bg-white text-charcoal placeholder:text-warm-gray-300 focus:outline-none focus:ring-2 focus:ring-sage/40 focus:border-sage transition-colors resize-none"
         />
       </div>

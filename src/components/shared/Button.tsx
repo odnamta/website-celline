@@ -42,7 +42,7 @@ export function Button({
   className = '',
   ...props
 }: ButtonProps) {
-  const baseClasses = `inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-sage-500 focus:ring-offset-2 ${variantClasses[variant]} ${className}`
+  const baseClasses = `inline-flex items-center justify-center gap-2 px-4 py-3 sm:px-6 rounded-xl text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-sage-500 focus:ring-offset-2 ${variantClasses[variant]} ${className}`
 
   if ('href' in props && props.href) {
     if (props.external) {

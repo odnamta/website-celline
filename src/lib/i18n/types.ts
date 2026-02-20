@@ -123,6 +123,7 @@ export interface Translations {
       sending: string
       success: string
       error: string
+      sendAnother: string
     }
     info: {
       title: string

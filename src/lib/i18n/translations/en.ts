@@ -133,6 +133,7 @@ export const en: Translations = {
       sending: 'Sending...',
       success: 'Message sent! I will respond shortly.',
       error: 'Failed to send message. Please try again.',
+      sendAnother: 'Send another message',
     },
     info: {
       title: 'Contact Information',

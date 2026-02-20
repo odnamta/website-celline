@@ -133,6 +133,7 @@ export const id: Translations = {
       sending: 'Mengirim...',
       success: 'Pesan terkirim! Saya akan segera merespons.',
       error: 'Gagal mengirim pesan. Silakan coba lagi.',
+      sendAnother: 'Kirim pesan lain',
     },
     info: {
       title: 'Informasi Kontak',

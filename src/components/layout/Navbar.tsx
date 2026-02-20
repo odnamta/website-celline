@@ -85,7 +85,7 @@ export function Navbar() {
 
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2"
+              className="p-2 focus-visible:ring-2 focus-visible:ring-sage focus-visible:rounded-md"
               aria-label="Toggle menu"
             >
               <div className="w-5 flex flex-col gap-1">

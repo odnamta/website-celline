@@ -30,7 +30,7 @@ export function FeaturedIn() {
                 <span className="text-sm sm:text-base font-serif font-medium">
                   {item.name}
                 </span>
-                <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
+                <ExternalLink className="w-3 h-3 opacity-50 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-200" />
               </a>
             ))}
           </div>

@@ -5,6 +5,7 @@ import { ContactContent } from '@/components/contact/ContactContent'
 export const metadata: Metadata = {
   title: 'Kontak',
   description: 'Hubungi dr. Celline Wijaya untuk kolaborasi, speaking engagement, atau pertanyaan.',
+  alternates: { canonical: '/contact' },
 }
 
 export default function ContactPage() {
