@@ -51,6 +51,9 @@ export const id: Translations = {
     sectionSubtitle: '4 organisasi yang didirikan untuk memberdayakan, mengedukasi, dan menginspirasi.',
     viewAll: 'Lihat Semua Organisasi',
   },
+  featuredIn: {
+    sectionTitle: 'Diliput Oleh',
+  },
   featuredStats: {
     sectionTitle: 'Dalam Angka',
     followers: 'Total Followers',

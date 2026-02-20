@@ -51,6 +51,9 @@ export interface Translations {
     sectionSubtitle: string
     viewAll: string
   }
+  featuredIn: {
+    sectionTitle: string
+  }
   featuredStats: {
     sectionTitle: string
     followers: string

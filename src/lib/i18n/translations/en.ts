@@ -51,6 +51,9 @@ export const en: Translations = {
     sectionSubtitle: '4 organizations founded to empower, educate, and inspire.',
     viewAll: 'View All Organizations',
   },
+  featuredIn: {
+    sectionTitle: 'Featured In',
+  },
   featuredStats: {
     sectionTitle: 'By the Numbers',
     followers: 'Total Followers',
