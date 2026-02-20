@@ -1,10 +1,10 @@
 'use client'
 
+import Image from 'next/image'
 import { motion } from 'motion/react'
 import { Instagram, Youtube, ArrowRight } from 'lucide-react'
 import { useLanguage } from '@/lib/i18n/context'
 import { Button } from '@/components/shared/Button'
-import { PhotoPlaceholder } from '@/components/shared/PhotoPlaceholder'
 import { SocialLinks } from '@/components/shared/SocialLinks'
 
 export function Hero() {
@@ -82,7 +82,16 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="order-1 lg:order-2 flex justify-center"
           >
-            <PhotoPlaceholder size="lg" />
+            <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-3xl overflow-hidden border-2 border-sage-200 shadow-xl">
+              <Image
+                src="/images/celline-hero.jpg"
+                alt="dr. Celline Wijaya"
+                width={900}
+                height={1200}
+                className="w-full h-full object-cover"
+                priority
+              />
+            </div>
           </motion.div>
         </div>
 
