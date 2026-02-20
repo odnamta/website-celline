@@ -20,7 +20,7 @@ export function OrgCard({ org, locale }: OrgCardProps) {
   const Icon = iconMap[org.icon]
 
   return (
-    <div className="p-6 rounded-2xl border border-sage-100 bg-white hover:border-sage-400 hover:shadow-sm transition-all duration-200">
+    <div className="p-6 rounded-2xl border border-sage-100 bg-white hover:border-sage-300 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
       <div className="flex items-start justify-between mb-4">
         <div
           className="w-12 h-12 rounded-xl flex items-center justify-center"

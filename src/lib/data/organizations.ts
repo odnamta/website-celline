@@ -31,7 +31,7 @@ export const organizations: Organization[] = [
     },
     icon: 'heart',
     color: '#8B9D83',
-    url: 'https://instagram.com/empower.id',
+    url: 'https://instagram.com/empower_id',
   },
   {
     id: 'dokter-pelari',
@@ -46,6 +46,7 @@ export const organizations: Organization[] = [
     },
     icon: 'activity',
     color: '#E4405F',
+    url: 'https://instagram.com/dokterpelari',
   },
   {
     id: 'celline-runs',
@@ -60,6 +61,7 @@ export const organizations: Organization[] = [
     },
     icon: 'trending-up',
     color: '#F59E0B',
+    url: 'https://instagram.com/celline.runs',
   },
   {
     id: 'healthworks',
