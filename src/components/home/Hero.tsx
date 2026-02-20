@@ -32,7 +32,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-charcoal mb-6 leading-tight"
+              className="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-charcoal mb-6 leading-tight"
             >
               {t.hero.title}
             </motion.h1>
@@ -91,7 +91,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.6 }}
-          className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto mt-16 pt-12 border-t border-sage-100"
+          className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 max-w-3xl mx-auto mt-16 pt-12 border-t border-sage-100"
         >
           {[
             { value: '370K+', label: t.hero.stats.followers },
@@ -99,11 +99,11 @@ export function Hero() {
             { value: t.hero.stats.organizations, label: t.hero.stats.organizationsSub },
             { value: '21K+', label: t.hero.stats.halfMarathon },
           ].map((stat) => (
-            <div key={stat.label} className="text-center">
-              <div className="text-2xl font-serif font-bold text-sage-600">
+            <div key={stat.label} className="text-center p-2 sm:p-0">
+              <div className="text-xl sm:text-2xl font-serif font-bold text-sage-600">
                 {stat.value}
               </div>
-              <div className="text-xs text-warm-gray-400 mt-1">{stat.label}</div>
+              <div className="text-xs sm:text-sm text-warm-gray-400 mt-1">{stat.label}</div>
             </div>
           ))}
         </motion.div>

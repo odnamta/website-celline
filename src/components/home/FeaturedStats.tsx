@@ -32,7 +32,7 @@ export function FeaturedStats() {
   ]
 
   return (
-    <section className="py-20 bg-sage-600 text-white">
+    <section className="py-24 sm:py-28 bg-sage-600 text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <SectionHeading
           title={t.featuredStats.sectionTitle}
@@ -43,7 +43,7 @@ export function FeaturedStats() {
           {stats.map((stat, i) => (
             <AnimateOnScroll key={stat.label} delay={i * 0.1}>
               <div className="text-center">
-                <stat.icon className="w-8 h-8 mx-auto mb-3 text-white/80" />
+                <stat.icon className="w-8 h-8 mx-auto mb-3 text-white" />
                 <div className="text-3xl sm:text-4xl font-serif font-bold mb-1">
                   {stat.value}
                 </div>

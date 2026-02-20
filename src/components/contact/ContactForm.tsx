@@ -56,46 +56,46 @@ export function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-5">
       <div>
         <label htmlFor="name" className="block text-sm font-medium text-charcoal mb-1.5">
-          {t.contact.form.name}
+          {t.contact.form.name} <span className="text-dusty-rose">*</span>
         </label>
         <input
           id="name"
           name="name"
           type="text"
           required
-          className="w-full px-4 py-3 rounded-xl border border-warm-gray-200 bg-white text-charcoal placeholder:text-warm-gray-300 focus:outline-none focus:ring-2 focus:ring-sage/40 focus:border-sage transition-colors"
+          className="w-full px-4 py-3 rounded-xl border border-warm-gray-200 bg-cream/50 text-charcoal placeholder:text-warm-gray-300 focus:outline-none focus:ring-2 focus:ring-sage focus:border-sage focus:bg-white transition-all"
         />
       </div>
 
       <div>
         <label htmlFor="email" className="block text-sm font-medium text-charcoal mb-1.5">
-          {t.contact.form.email}
+          {t.contact.form.email} <span className="text-dusty-rose">*</span>
         </label>
         <input
           id="email"
           name="email"
           type="email"
           required
-          className="w-full px-4 py-3 rounded-xl border border-warm-gray-200 bg-white text-charcoal placeholder:text-warm-gray-300 focus:outline-none focus:ring-2 focus:ring-sage/40 focus:border-sage transition-colors"
+          className="w-full px-4 py-3 rounded-xl border border-warm-gray-200 bg-cream/50 text-charcoal placeholder:text-warm-gray-300 focus:outline-none focus:ring-2 focus:ring-sage focus:border-sage focus:bg-white transition-all"
         />
       </div>
 
       <div>
         <label htmlFor="subject" className="block text-sm font-medium text-charcoal mb-1.5">
-          {t.contact.form.subject}
+          {t.contact.form.subject} <span className="text-dusty-rose">*</span>
         </label>
         <input
           id="subject"
           name="subject"
           type="text"
           required
-          className="w-full px-4 py-3 rounded-xl border border-warm-gray-200 bg-white text-charcoal placeholder:text-warm-gray-300 focus:outline-none focus:ring-2 focus:ring-sage/40 focus:border-sage transition-colors"
+          className="w-full px-4 py-3 rounded-xl border border-warm-gray-200 bg-cream/50 text-charcoal placeholder:text-warm-gray-300 focus:outline-none focus:ring-2 focus:ring-sage focus:border-sage focus:bg-white transition-all"
         />
       </div>
 
       <div>
         <label htmlFor="message" className="block text-sm font-medium text-charcoal mb-1.5">
-          {t.contact.form.message}
+          {t.contact.form.message} <span className="text-dusty-rose">*</span>
         </label>
         <textarea
           id="message"

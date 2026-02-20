@@ -9,7 +9,7 @@ export function Timeline() {
   const { t, locale } = useLanguage()
 
   return (
-    <section className="py-20 bg-cream">
+    <section className="py-24 sm:py-28 bg-cream">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <SectionHeading title={t.about.timelineTitle} />
 
@@ -24,7 +24,7 @@ export function Timeline() {
                 <AnimateOnScroll key={event.year} delay={i * 0.08}>
                   <div className="relative flex items-start gap-6 sm:gap-0">
                     {/* Dot */}
-                    <div className="absolute left-4 sm:left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-sage border-2 border-cream z-10 mt-1.5" />
+                    <div className="absolute left-4 sm:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-sage border-[3px] border-white z-10 mt-1.5 shadow-sm" />
 
                     {/* Content — mobile: always right; desktop: alternating */}
                     <div

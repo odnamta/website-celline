@@ -19,7 +19,7 @@ export function OrganizationsPreview() {
   const { t, locale } = useLanguage()
 
   return (
-    <section className="py-20 bg-cream">
+    <section className="py-24 sm:py-28 bg-cream">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <SectionHeading
           title={t.orgsPreview.sectionTitle}

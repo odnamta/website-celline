@@ -14,6 +14,20 @@ export function MediaKitContent() {
 
   return (
     <div className="pt-8">
+      {/* Page header */}
+      <section className="pt-16 pb-12 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <AnimateOnScroll className="text-center">
+            <h1 className="text-3xl sm:text-4xl font-serif font-bold text-charcoal mb-4">
+              {t.mediaKit.pageTitle}
+            </h1>
+            <p className="text-warm-gray-500 text-lg max-w-2xl mx-auto">
+              {t.mediaKit.pageSubtitle}
+            </p>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <SectionHeading

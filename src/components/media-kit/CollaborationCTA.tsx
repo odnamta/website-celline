@@ -9,7 +9,7 @@ export function CollaborationCTA() {
   const { t } = useLanguage()
 
   return (
-    <section className="py-20 bg-sage-600 text-white">
+    <section className="py-24 sm:py-28 bg-sage-600 text-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
         <AnimateOnScroll>
           <h2 className="text-3xl sm:text-4xl font-serif font-bold mb-4">

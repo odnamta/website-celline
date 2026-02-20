@@ -13,7 +13,7 @@ export function PageWrapper({ children }: PageWrapperProps) {
   return (
     <LanguageProvider>
       <Navbar />
-      <main className="pt-16">{children}</main>
+      <main id="main-content" className="pt-16">{children}</main>
       <Footer />
     </LanguageProvider>
   )

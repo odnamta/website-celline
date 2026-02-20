@@ -11,7 +11,7 @@ export function Footer() {
   const { t } = useLanguage()
 
   return (
-    <footer className="py-16 bg-charcoal text-white/70">
+    <footer className="py-16 bg-charcoal text-white/80">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid sm:grid-cols-3 gap-10 mb-12">
           {/* Brand */}

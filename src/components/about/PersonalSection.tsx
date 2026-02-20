@@ -16,7 +16,7 @@ export function PersonalSection() {
   const { t } = useLanguage()
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-24 sm:py-28 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <SectionHeading
           title={t.about.personalTitle}

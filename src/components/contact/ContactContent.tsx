@@ -10,7 +10,7 @@ export function ContactContent() {
 
   return (
     <div className="pt-8">
-      <section className="py-20 bg-white">
+      <section className="py-24 sm:py-28 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <AnimateOnScroll className="text-center mb-12">
             <h1 className="text-3xl sm:text-4xl font-serif font-bold text-charcoal mb-4">

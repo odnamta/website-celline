@@ -8,7 +8,7 @@ export function Bio() {
   const { t } = useLanguage()
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-24 sm:py-28 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid lg:grid-cols-5 gap-12 items-start">
           {/* Photo */}
