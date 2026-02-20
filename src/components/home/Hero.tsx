@@ -58,7 +58,7 @@ export function Hero() {
               </Button>
               <Button variant="secondary" href="https://youtube.com/@cellinewijaya" external>
                 <Youtube className="w-4 h-4" />
-                YouTube — 37K
+                {t.hero.cta.youtube}
               </Button>
               <Button variant="ghost" href="/contact">
                 {t.hero.cta.collaborate}
@@ -94,7 +94,7 @@ export function Hero() {
           className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto mt-16 pt-12 border-t border-sage-100"
         >
           {[
-            { value: '300K+', label: t.hero.stats.followers },
+            { value: '370K+', label: t.hero.stats.followers },
             { value: t.hero.stats.harvard, label: t.hero.stats.harvardSub },
             { value: t.hero.stats.organizations, label: t.hero.stats.organizationsSub },
             { value: '21K+', label: t.hero.stats.halfMarathon },

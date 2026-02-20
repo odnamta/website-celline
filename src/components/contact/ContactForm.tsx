@@ -19,7 +19,13 @@ export function ContactForm() {
     const data = new FormData(form)
 
     try {
-      const res = await fetch('https://formspree.io/f/xpwzgkjq', {
+      const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID
+      if (!formspreeId) {
+        setStatus('error')
+        return
+      }
+
+      const res = await fetch(`https://formspree.io/f/${formspreeId}`, {
         method: 'POST',
         body: data,
         headers: { Accept: 'application/json' },

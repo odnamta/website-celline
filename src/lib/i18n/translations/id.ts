@@ -14,6 +14,7 @@ export const id: Translations = {
     subtitle: 'Harvard Global Health alumna. Membangun jembatan antara kedokteran, edukasi, dan inspirasi.',
     cta: {
       instagram: 'Instagram — 237K',
+      youtube: 'YouTube — 37K',
       collaborate: 'Kolaborasi',
     },
     stats: {
@@ -34,7 +35,7 @@ export const id: Translations = {
     },
     creator: {
       title: 'Konten Kreator',
-      description: 'Mengedukasi 300K+ pengikut di Instagram, TikTok, & YouTube tentang kesehatan, gaya hidup sehat, dan perjalanan akademik.',
+      description: 'Mengedukasi 370K+ pengikut di Instagram, TikTok, & YouTube tentang kesehatan, gaya hidup sehat, dan perjalanan akademik.',
     },
     organizations: {
       title: 'Pendiri & Pemimpin',
@@ -77,7 +78,7 @@ export const id: Translations = {
     },
     family: {
       title: 'Ibu & Istri',
-      description: 'Ibu dari Alma (4 tahun) dan Sofia (7 bulan). Istri dari Dio Atmando. Keluarga adalah motivasi terbesar.',
+      description: 'Ibu dari Alma dan Sofia. Istri dari Dio Atmando. Keluarga adalah motivasi terbesar.',
     },
     teaching: {
       title: 'Pengajar',
@@ -105,6 +106,8 @@ export const id: Translations = {
     audienceAgeSub: 'Rentang Usia Utama',
     audienceGenderSub: 'Komposisi Gender',
     audienceLocationSub: 'Lokasi Utama',
+    followersLabel: 'pengikut',
+    subscribersLabel: 'subscriber',
     collaborationTitle: 'Mari Berkolaborasi',
     collaborationSubtitle: 'Terbuka untuk kolaborasi yang sejalan dengan nilai edukasi, kesehatan, dan pemberdayaan.',
     collaborationTypes: [
@@ -136,6 +139,8 @@ export const id: Translations = {
     },
   },
   footer: {
+    navigation: 'Navigasi',
+    harvardAlumna: 'Alumna Harvard Global Health.',
     copyright: 'Hak cipta',
     madeWith: 'Dibuat dengan',
   },

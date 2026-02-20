@@ -44,5 +44,5 @@ export const socialPlatforms: SocialPlatform[] = [
 
 export const contactEmail = 'cellinewijaya.md@gmail.com'
 
-export const totalFollowers = '300K+'
+export const totalFollowers = '370K+'
 export const totalFollowersNum = 374000

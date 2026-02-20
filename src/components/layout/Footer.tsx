@@ -22,14 +22,14 @@ export function Footer() {
             <p className="text-sm leading-relaxed">
               {t.hero.tagline}
               <br />
-              Harvard Global Health Alumna.
+              {t.footer.harvardAlumna}
             </p>
           </div>
 
           {/* Quick nav */}
           <div>
             <h4 className="text-sm font-semibold text-white mb-3 uppercase tracking-wider">
-              Navigation
+              {t.footer.navigation}
             </h4>
             <div className="space-y-2">
               {navItems.map((item) => (

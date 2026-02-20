@@ -14,6 +14,7 @@ export interface Translations {
     subtitle: string
     cta: {
       instagram: string
+      youtube: string
       collaborate: string
     }
     stats: {
@@ -100,6 +101,8 @@ export interface Translations {
     audienceAgeSub: string
     audienceGenderSub: string
     audienceLocationSub: string
+    followersLabel: string
+    subscribersLabel: string
     collaborationTitle: string
     collaborationSubtitle: string
     collaborationTypes: string[]
@@ -126,6 +129,8 @@ export interface Translations {
     }
   }
   footer: {
+    navigation: string
+    harvardAlumna: string
     copyright: string
     madeWith: string
   }

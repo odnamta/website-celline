@@ -11,7 +11,7 @@ export function FeaturedStats() {
   const stats = [
     {
       icon: Users,
-      value: '300K+',
+      value: '370K+',
       label: t.featuredStats.followers,
     },
     {

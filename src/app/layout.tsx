@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const inter = Inter({
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s | dr. Celline Wijaya',
   },
   description:
-    'Dokter, Harvard Global Health alumna, content creator 300K+ followers, pendiri Empower Indonesia & Dokter Pelari.',
+    'Dokter, Harvard Global Health alumna, content creator 370K+ followers, pendiri Empower Indonesia & Dokter Pelari.',
   keywords: [
     'Celline Wijaya',
     'dokter',
@@ -32,6 +33,14 @@ export const metadata: Metadata = {
     'LPDP',
   ],
   authors: [{ name: 'dr. Celline Wijaya, MMSc' }],
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
+  metadataBase: new URL('https://cellinewijaya.com'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'dr. Celline Wijaya, MMSc',
     description: 'Dokter. Kreator. Pelari. Harvard Global Health alumna.',
@@ -39,11 +48,20 @@ export const metadata: Metadata = {
     locale: 'id_ID',
     alternateLocale: 'en_US',
     siteName: 'Celline Wijaya',
+    images: [
+      {
+        url: '/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'dr. Celline Wijaya, MMSc — Dokter, Kreator, Pelari',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'dr. Celline Wijaya, MMSc',
     description: 'Dokter. Kreator. Pelari. Harvard Global Health alumna.',
+    images: ['/og-default.png'],
   },
   robots: {
     index: true,
@@ -67,6 +85,10 @@ export default function RootLayout({
               '@type': 'Person',
               name: 'dr. Celline Wijaya, MMSc',
               jobTitle: 'Medical Doctor & Lecturer',
+              worksFor: {
+                '@type': 'Organization',
+                name: 'Universitas Ciputra School of Medicine',
+              },
               alumniOf: {
                 '@type': 'CollegeOrUniversity',
                 name: 'Harvard University',
@@ -77,12 +99,15 @@ export default function RootLayout({
                 'https://youtube.com/@cellinewijaya',
                 'https://linkedin.com/in/maria-cellina-wijaya',
               ],
+              email: 'cellinewijaya.md@gmail.com',
+              url: 'https://cellinewijaya.com',
             }),
           }}
         />
       </head>
       <body className="min-h-screen antialiased font-sans">
         {children}
+        <Analytics />
       </body>
     </html>
   )

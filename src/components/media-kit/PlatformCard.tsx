@@ -2,6 +2,7 @@
 
 import { Instagram, Youtube, Linkedin } from 'lucide-react'
 import type { SocialPlatform } from '@/lib/data/social'
+import { useLanguage } from '@/lib/i18n/context'
 
 function TikTokIcon({ className }: { className?: string }) {
   return (
@@ -23,6 +24,7 @@ interface PlatformCardProps {
 }
 
 export function PlatformCard({ platform }: PlatformCardProps) {
+  const { t } = useLanguage()
   const Icon = iconMap[platform.name]
   if (!Icon) return null
 
@@ -53,7 +55,7 @@ export function PlatformCard({ platform }: PlatformCardProps) {
       )}
       {platform.followers && (
         <p className="text-sm text-warm-gray-400 mt-1">
-          {platform.name === 'YouTube' ? 'subscribers' : 'followers'}
+          {platform.name === 'YouTube' ? t.mediaKit.subscribersLabel : t.mediaKit.followersLabel}
         </p>
       )}
     </a>

@@ -14,6 +14,7 @@ export const en: Translations = {
     subtitle: 'Harvard Global Health alumna. Bridging medicine, education, and inspiration.',
     cta: {
       instagram: 'Instagram — 237K',
+      youtube: 'YouTube — 37K',
       collaborate: 'Collaborate',
     },
     stats: {
@@ -34,7 +35,7 @@ export const en: Translations = {
     },
     creator: {
       title: 'Content Creator',
-      description: 'Educating 300K+ followers on Instagram, TikTok, & YouTube about health, wellness, and the academic journey.',
+      description: 'Educating 370K+ followers on Instagram, TikTok, & YouTube about health, wellness, and the academic journey.',
     },
     organizations: {
       title: 'Founder & Leader',
@@ -77,7 +78,7 @@ export const en: Translations = {
     },
     family: {
       title: 'Mother & Wife',
-      description: 'Mother of Alma (4 years) and Sofia (7 months). Wife of Dio Atmando. Family is the greatest motivation.',
+      description: 'Mother of Alma and Sofia. Wife of Dio Atmando. Family is the greatest motivation.',
     },
     teaching: {
       title: 'Educator',
@@ -105,6 +106,8 @@ export const en: Translations = {
     audienceAgeSub: 'Primary Age Range',
     audienceGenderSub: 'Gender Composition',
     audienceLocationSub: 'Primary Location',
+    followersLabel: 'followers',
+    subscribersLabel: 'subscribers',
     collaborationTitle: "Let's Collaborate",
     collaborationSubtitle: 'Open to collaborations aligned with education, health, and empowerment values.',
     collaborationTypes: [
@@ -136,6 +139,8 @@ export const en: Translations = {
     },
   },
   footer: {
+    navigation: 'Navigation',
+    harvardAlumna: 'Harvard Global Health alumna.',
     copyright: 'Copyright',
     madeWith: 'Made with',
   },

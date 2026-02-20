@@ -91,12 +91,12 @@ export const timelineEvents: TimelineEvent[] = [
   {
     year: '2025',
     title: {
-      id: '300K+ Followers & Healthworks',
-      en: '300K+ Followers & Healthworks',
+      id: '370K+ Followers & Healthworks',
+      en: '370K+ Followers & Healthworks',
     },
     description: {
-      id: 'Mencapai 300K+ followers di media sosial dan mendirikan Healthworks Indonesia.',
-      en: 'Reached 300K+ social media followers and founded Healthworks Indonesia.',
+      id: 'Mencapai 370K+ followers di media sosial dan mendirikan Healthworks Indonesia.',
+      en: 'Reached 370K+ social media followers and founded Healthworks Indonesia.',
     },
   },
 ]
