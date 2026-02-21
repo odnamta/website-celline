@@ -8,6 +8,10 @@ export const metadata: Metadata = {
   title: 'Tentang',
   description: 'Perjalanan dr. Celline Wijaya — dari Surabaya ke Harvard, dari kedokteran ke content creation.',
   alternates: { canonical: '/about' },
+  openGraph: {
+    title: 'Tentang dr. Celline Wijaya, MMSc',
+    description: 'Dari Surabaya ke Harvard. Dokter, kreator, dan pendiri Empower Indonesia.',
+  },
 }
 
 export default function AboutPage() {

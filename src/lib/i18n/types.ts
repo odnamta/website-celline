@@ -5,6 +5,7 @@ export interface Translations {
     home: string
     about: string
     impact: string
+    gallery: string
     mediaKit: string
     contact: string
   }
@@ -137,6 +138,20 @@ export interface Translations {
     harvardAlumna: string
     copyright: string
     madeWith: string
+  }
+  gallery: {
+    pageTitle: string
+    pageSubtitle: string
+    categories: {
+      all: string
+      running: string
+      academic: string
+      family: string
+      speaking: string
+    }
+    photoAlt: string
+    comingSoon: string
+    comingSoonSub: string
   }
   common: {
     learnMore: string

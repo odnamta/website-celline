@@ -90,6 +90,7 @@ export function Hero() {
                 height={1200}
                 className="w-full h-full object-cover"
                 priority
+                fetchPriority="high"
               />
             </div>
           </motion.div>

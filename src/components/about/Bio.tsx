@@ -27,9 +27,9 @@ export function Bio() {
           {/* Bio text */}
           <div className="lg:col-span-3">
             <AnimateOnScroll>
-              <h2 className="text-3xl sm:text-4xl font-serif font-bold text-charcoal mb-8">
+              <h1 className="text-3xl sm:text-4xl font-serif font-bold text-charcoal mb-8">
                 {t.about.bioTitle}
-              </h2>
+              </h1>
             </AnimateOnScroll>
 
             <div className="space-y-5">

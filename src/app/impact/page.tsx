@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   title: 'Dampak & Organisasi',
   description: '4 organisasi yang didirikan Celline Wijaya untuk memberdayakan, mengedukasi, dan menginspirasi.',
   alternates: { canonical: '/impact' },
+  openGraph: {
+    title: 'Dampak & Organisasi — dr. Celline Wijaya',
+    description: '4 organisasi: Empower Indonesia, Dokter Pelari, Celline Runs, Healthworks Indonesia.',
+  },
 }
 
 export default function ImpactPage() {

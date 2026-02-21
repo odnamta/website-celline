@@ -15,6 +15,7 @@ export function OrgGrid() {
         <SectionHeading
           title={t.impact.pageTitle}
           subtitle={t.impact.pageSubtitle}
+          as="h1"
         />
 
         <div className="grid sm:grid-cols-2 gap-6">

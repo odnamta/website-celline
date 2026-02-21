@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   title: 'Media Kit',
   description: 'Data dan informasi untuk kolaborasi brand dan media dengan dr. Celline Wijaya.',
   alternates: { canonical: '/media-kit' },
+  openGraph: {
+    title: 'Media Kit — dr. Celline Wijaya',
+    description: '370K+ followers. Data dan informasi untuk kolaborasi brand dan media.',
+  },
 }
 
 export default function MediaKitPage() {

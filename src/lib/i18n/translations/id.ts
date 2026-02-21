@@ -5,6 +5,7 @@ export const id: Translations = {
     home: 'Beranda',
     about: 'Tentang',
     impact: 'Dampak',
+    gallery: 'Galeri',
     mediaKit: 'Media Kit',
     contact: 'Kontak',
   },
@@ -147,6 +148,20 @@ export const id: Translations = {
     harvardAlumna: 'Alumna Harvard Global Health.',
     copyright: 'Hak cipta',
     madeWith: 'Dibuat dengan',
+  },
+  gallery: {
+    pageTitle: 'Galeri',
+    pageSubtitle: 'Momen dari kedokteran, lari, speaking, dan kehidupan.',
+    categories: {
+      all: 'Semua',
+      running: 'Lari',
+      academic: 'Akademik',
+      family: 'Keluarga',
+      speaking: 'Speaking',
+    },
+    photoAlt: 'Foto oleh dr. Celline Wijaya',
+    comingSoon: 'Foto Lainnya Segera Hadir',
+    comingSoonSub: 'Ikuti @cellinewijaya.md di Instagram untuk update terbaru.',
   },
   common: {
     learnMore: 'Selengkapnya',

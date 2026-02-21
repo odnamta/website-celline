@@ -87,6 +87,8 @@ export function Navbar() {
               onClick={() => setIsOpen(!isOpen)}
               className="p-2 focus-visible:ring-2 focus-visible:ring-sage focus-visible:rounded-md"
               aria-label="Toggle menu"
+              aria-expanded={isOpen}
+              aria-controls="mobile-nav"
             >
               <div className="w-5 flex flex-col gap-1">
                 <span
@@ -111,6 +113,9 @@ export function Navbar() {
 
         {/* Mobile menu */}
         <div
+          id="mobile-nav"
+          role="navigation"
+          aria-label="Mobile navigation"
           className={`md:hidden overflow-hidden transition-all duration-300 ${
             isOpen ? 'max-h-64 pb-4' : 'max-h-0'
           }`}

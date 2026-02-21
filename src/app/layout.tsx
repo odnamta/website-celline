@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'dr. Celline Wijaya, MMSc' }],
   icons: {
     icon: '/favicon.svg',
-    apple: '/favicon.svg',
+    apple: '/apple-touch-icon.png',
   },
   metadataBase: new URL('https://cellinewijaya.com'),
   alternates: {
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     siteName: 'Celline Wijaya',
     images: [
       {
-        url: '/og-default.png',
+        url: '/og-default.jpg',
         width: 1200,
         height: 630,
         alt: 'dr. Celline Wijaya, MMSc — Dokter, Kreator, Pelari',
@@ -61,7 +61,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'dr. Celline Wijaya, MMSc',
     description: 'Dokter. Kreator. Pelari. Harvard Global Health alumna.',
-    images: ['/og-default.png'],
+    images: ['/og-default.jpg'],
+    creator: '@cellinewijaya',
   },
   robots: {
     index: true,

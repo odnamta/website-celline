@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   title: 'Kontak',
   description: 'Hubungi dr. Celline Wijaya untuk kolaborasi, speaking engagement, atau pertanyaan.',
   alternates: { canonical: '/contact' },
+  openGraph: {
+    title: 'Kontak — dr. Celline Wijaya',
+    description: 'Untuk kolaborasi, speaking engagement, atau pertanyaan.',
+  },
 }
 
 export default function ContactPage() {

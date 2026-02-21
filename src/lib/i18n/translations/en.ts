@@ -5,6 +5,7 @@ export const en: Translations = {
     home: 'Home',
     about: 'About',
     impact: 'Impact',
+    gallery: 'Gallery',
     mediaKit: 'Media Kit',
     contact: 'Contact',
   },
@@ -147,6 +148,20 @@ export const en: Translations = {
     harvardAlumna: 'Harvard Global Health alumna.',
     copyright: 'Copyright',
     madeWith: 'Made with',
+  },
+  gallery: {
+    pageTitle: 'Gallery',
+    pageSubtitle: 'Moments from medicine, running, speaking, and life.',
+    categories: {
+      all: 'All',
+      running: 'Running',
+      academic: 'Academic',
+      family: 'Family',
+      speaking: 'Speaking',
+    },
+    photoAlt: 'Photo by dr. Celline Wijaya',
+    comingSoon: 'More Photos Coming Soon',
+    comingSoonSub: 'Follow @cellinewijaya.md on Instagram for the latest updates.',
   },
   common: {
     learnMore: 'Learn More',
