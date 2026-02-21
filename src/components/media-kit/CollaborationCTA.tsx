@@ -1,9 +1,9 @@
 'use client'
 
+import Link from 'next/link'
 import { ArrowRight, Check } from 'lucide-react'
 import { useLanguage } from '@/lib/i18n/context'
 import { AnimateOnScroll } from '@/components/shared/AnimateOnScroll'
-import { Button } from '@/components/shared/Button'
 
 export function CollaborationCTA() {
   const { t } = useLanguage()
@@ -32,13 +32,13 @@ export function CollaborationCTA() {
         </AnimateOnScroll>
 
         <AnimateOnScroll delay={0.2}>
-          <Button
+          <Link
             href="/contact"
-            className="bg-white text-sage-700 hover:bg-sage-50"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl text-sm font-medium transition-all duration-200 bg-white text-sage-700 hover:bg-sage-50 active:scale-[0.97] shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-sage-600"
           >
             {t.mediaKit.ctaButton}
             <ArrowRight className="w-4 h-4" />
-          </Button>
+          </Link>
         </AnimateOnScroll>
       </div>
     </section>
