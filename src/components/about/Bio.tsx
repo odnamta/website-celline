@@ -15,7 +15,7 @@ export function Bio() {
           <AnimateOnScroll className="lg:col-span-2 flex justify-center">
             <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-3xl overflow-hidden border-2 border-sage-200 shadow-xl">
               <Image
-                src="/images/celline-hero.jpg"
+                src="/images/celline-about.jpg"
                 alt="dr. Celline Wijaya, MMSc"
                 width={900}
                 height={1200}
