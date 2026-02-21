@@ -1,4 +1,11 @@
+import type { Metadata } from 'next'
 import { PageWrapper } from '@/components/layout/PageWrapper'
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://cellinewijaya.com',
+  },
+}
 import { Hero } from '@/components/home/Hero'
 import { Highlights } from '@/components/home/Highlights'
 import { OrganizationsPreview } from '@/components/home/Organizations'
