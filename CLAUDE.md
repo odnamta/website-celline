@@ -16,8 +16,10 @@ Personal website for **dr. Celline Wijaya, M.Sc.** — medical doctor, Harvard G
 - Entering OBGYN residency — May 2026
 
 ### Content Creator
-- Instagram: ~157K followers — @cellinewijaya (health, education, lifestyle)
-- TikTok: ~105K followers — health tips, Harvard life, running
+- Instagram: ~237K followers — @cellinewijaya.md (health, education, lifestyle)
+- TikTok: ~100K followers — @cellinewijaya.md (health tips, Harvard life, running)
+- YouTube: ~37K subscribers — @cellinewijaya
+- Total: 370K+ followers across platforms
 - Focus: medical education, healthy lifestyle, motherhood
 
 ### Social Entrepreneur
