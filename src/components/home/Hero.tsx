@@ -82,7 +82,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="order-1 lg:order-2 flex justify-center"
           >
-            <div className="w-64 h-64 sm:w-72 sm:h-72 rounded-3xl overflow-hidden border-2 border-sage-200 shadow-xl">
+            <div className="w-72 sm:w-80 lg:w-96 aspect-[3/4] rounded-3xl overflow-hidden border-2 border-sage-200 shadow-xl">
               <Image
                 src="/images/celline-hero.jpg"
                 alt="dr. Celline Wijaya"
