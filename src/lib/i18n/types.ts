@@ -129,6 +129,8 @@ export interface Translations {
     info: {
       title: string
       email: string
+      manager: string
+      managerLabel: string
       location: string
       social: string
     }

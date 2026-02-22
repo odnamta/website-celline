@@ -22,7 +22,7 @@ export const id: Translations = {
       followers: 'Followers',
       harvard: 'Harvard',
       harvardSub: 'MMSc Global Health',
-      organizations: '4',
+      organizations: '3',
       organizationsSub: 'Organisasi',
       halfMarathon: 'Half Marathon',
     },
@@ -40,7 +40,7 @@ export const id: Translations = {
     },
     organizations: {
       title: 'Pendiri & Pemimpin',
-      description: 'Mendirikan 4 organisasi yang berdampak: Empower Indonesia, Dokter Pelari, Celline Runs, dan Healthworks Indonesia.',
+      description: 'Mendirikan 3 organisasi yang berdampak: Empower Indonesia, Dokter Pelari, dan Celline Runs.',
     },
     runner: {
       title: 'Dokter Pelari',
@@ -49,7 +49,7 @@ export const id: Translations = {
   },
   orgsPreview: {
     sectionTitle: 'Organisasi & Dampak',
-    sectionSubtitle: '4 organisasi yang didirikan untuk memberdayakan, mengedukasi, dan menginspirasi.',
+    sectionSubtitle: '3 organisasi yang didirikan untuk memberdayakan, mengedukasi, dan menginspirasi.',
     viewAll: 'Lihat Semua Organisasi',
   },
   featuredIn: {
@@ -139,6 +139,8 @@ export const id: Translations = {
     info: {
       title: 'Informasi Kontak',
       email: 'Email',
+      manager: 'Manajer',
+      managerLabel: 'Untuk keperluan bisnis',
       location: 'Surabaya, Indonesia',
       social: 'Media Sosial',
     },

@@ -42,7 +42,13 @@ export const socialPlatforms: SocialPlatform[] = [
   },
 ]
 
-export const contactEmail = 'cellinewijaya.md@gmail.com'
+export const contactEmail = 'celline1130@gmail.com'
+
+export const managerContact = {
+  name: 'Adella Izdiharnada',
+  email: 'adellaizdhiharnada@gmail.com',
+  phone: '+62 821-2393-0563',
+}
 
 export const totalFollowers = '370K+'
 export const totalFollowersNum = 374000

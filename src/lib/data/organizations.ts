@@ -63,18 +63,4 @@ export const organizations: Organization[] = [
     color: '#F59E0B',
     url: 'https://instagram.com/celline.runs',
   },
-  {
-    id: 'healthworks',
-    name: { id: 'Healthworks Indonesia', en: 'Healthworks Indonesia' },
-    tagline: {
-      id: 'Inovasi kesehatan masyarakat',
-      en: 'Public health innovation',
-    },
-    description: {
-      id: 'Inisiatif yang berfokus pada inovasi penyampaian layanan kesehatan dan edukasi kesehatan masyarakat di Indonesia.',
-      en: 'An initiative focused on innovative health service delivery and public health education in Indonesia.',
-    },
-    icon: 'shield',
-    color: '#0A66C2',
-  },
 ]

@@ -102,7 +102,7 @@ export default function RootLayout({
               ],
               image: 'https://cellinewijaya.com/images/celline-hero.jpg',
               description: 'Medical doctor, Harvard Global Health alumna, content creator, founder of Empower Indonesia & Dokter Pelari.',
-              email: 'cellinewijaya.md@gmail.com',
+              email: 'celline1130@gmail.com',
               url: 'https://cellinewijaya.com',
             }),
           }}
