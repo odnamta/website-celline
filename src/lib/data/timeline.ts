@@ -12,91 +12,91 @@ export interface TimelineEvent {
 
 export const timelineEvents: TimelineEvent[] = [
   {
-    year: '2017',
+    year: '2012',
     title: {
-      id: 'Lulus Kedokteran',
-      en: 'Medical Degree',
+      id: 'Masuk FK Universitas Airlangga',
+      en: 'Entered Airlangga University Medical School',
     },
     description: {
-      id: 'Menyelesaikan pendidikan kedokteran dan menjadi dokter umum.',
-      en: 'Completed medical education and became a general practitioner.',
+      id: 'Memulai pendidikan kedokteran di FK Universitas Airlangga, Surabaya pada usia 15 tahun.',
+      en: 'Started medical education at Airlangga University Faculty of Medicine, Surabaya at the age of 15.',
+    },
+  },
+  {
+    year: '2017',
+    title: {
+      id: 'Sarjana Kedokteran',
+      en: 'Bachelor of Medicine',
+    },
+    description: {
+      id: 'Menyelesaikan gelar Sarjana Kedokteran di Universitas Airlangga.',
+      en: 'Completed Bachelor of Medicine at Airlangga University.',
     },
   },
   {
     year: '2019',
     title: {
-      id: 'Mendirikan Empower Indonesia',
-      en: 'Founded Empower Indonesia',
+      id: 'Dokter Umum — Termuda di Angkatan',
+      en: 'Medical Doctor — Youngest in Class',
     },
     description: {
-      id: 'Memulai organisasi beasiswa untuk individu berbakat dari latar belakang ekonomi terbatas.',
-      en: 'Started a scholarship organization for talented individuals from economically disadvantaged backgrounds.',
-    },
-  },
-  {
-    year: '2020',
-    title: {
-      id: 'Beasiswa LPDP',
-      en: 'LPDP Scholarship',
-    },
-    description: {
-      id: 'Menerima beasiswa LPDP untuk melanjutkan studi di Harvard University.',
-      en: 'Received LPDP scholarship to pursue studies at Harvard University.',
+      id: 'Lulus sebagai Dokter Umum dari FK Universitas Airlangga pada usia 21 tahun, termuda di angkatannya.',
+      en: 'Graduated as Medical Doctor from Airlangga University at age 21, the youngest in the class.',
     },
   },
   {
     year: '2021',
     title: {
-      id: 'Harvard University',
-      en: 'Harvard University',
+      id: 'Beasiswa LPDP & Harvard',
+      en: 'LPDP Scholarship & Harvard',
     },
     description: {
-      id: 'Memulai Master of Medical Sciences in Global Health Delivery di Harvard.',
-      en: 'Started Master of Medical Sciences in Global Health Delivery at Harvard.',
+      id: 'Menerima beasiswa LPDP dan memulai Master of Medical Sciences in Global Health Delivery di Harvard Medical School.',
+      en: 'Received LPDP scholarship and started Master of Medical Sciences in Global Health Delivery at Harvard Medical School.',
     },
   },
   {
     year: '2022',
     title: {
-      id: 'Lulus dari Harvard',
-      en: 'Harvard Graduation',
+      id: 'Mendirikan Empower Indonesia',
+      en: 'Founded Empower Indonesia',
     },
     description: {
-      id: 'Menyelesaikan MMSc in Global Health Delivery dari Harvard University.',
-      en: 'Completed MMSc in Global Health Delivery from Harvard University.',
+      id: 'Mendirikan organisasi non-profit untuk meningkatkan akses pendidikan perempuan di Indonesia.',
+      en: 'Founded a non-profit organization dedicated to enhancing women\'s educational access in Indonesia.',
     },
   },
   {
     year: '2023',
     title: {
-      id: 'Content Creator & Organisasi',
-      en: 'Content Creator & Organizations',
+      id: 'Content Creator & DokterPelari',
+      en: 'Content Creator & DokterPelari',
     },
     description: {
-      id: 'Mulai aktif di media sosial dan mendirikan Dokter Pelari serta Celline Runs.',
-      en: 'Became active on social media and founded Dokter Pelari and Celline Runs.',
+      id: 'Mulai aktif di media sosial dan mendirikan DokterPelari, platform edukasi lari berbasis bukti ilmiah.',
+      en: 'Became active on social media and founded DokterPelari, an evidence-based running education platform.',
     },
   },
   {
     year: '2024',
     title: {
-      id: 'Dosen FK Universitas Ciputra',
-      en: 'Lecturer at UC School of Medicine',
+      id: 'Lulus Harvard & Riset di HSPH',
+      en: 'Harvard Graduation & HSPH Research',
     },
     description: {
-      id: 'Bergabung sebagai dosen di Fakultas Kedokteran Universitas Ciputra Surabaya.',
-      en: 'Joined as a lecturer at the University of Ciputra School of Medicine, Surabaya.',
+      id: 'Menyelesaikan MMSc dari Harvard Medical School dan bergabung sebagai Research Assistant di Harvard T.H. Chan School of Public Health.',
+      en: 'Completed MMSc from Harvard Medical School and joined Harvard T.H. Chan School of Public Health as Research Assistant.',
     },
   },
   {
     year: '2025',
     title: {
-      id: '370K+ Followers',
-      en: '370K+ Followers',
+      id: 'Dosen FK UC & 370K+ Followers',
+      en: 'UC Med School Lecturer & 370K+ Followers',
     },
     description: {
-      id: 'Mencapai 370K+ followers di media sosial dan terus menginspirasi melalui konten edukasi kesehatan.',
-      en: 'Reached 370K+ social media followers and continues to inspire through health education content.',
+      id: 'Bergabung sebagai dosen di FK Universitas Ciputra Surabaya dan mencapai 370K+ followers di media sosial.',
+      en: 'Joined University of Ciputra School of Medicine as lecturer and reached 370K+ social media followers.',
     },
   },
 ]

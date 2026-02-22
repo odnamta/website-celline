@@ -105,9 +105,9 @@ export function Hero() {
         >
           {[
             { value: '370K+', label: t.hero.stats.followers },
-            { value: t.hero.stats.harvard, label: t.hero.stats.harvardSub },
+            { value: t.hero.stats.speaking, label: t.hero.stats.speakingSub },
             { value: t.hero.stats.organizations, label: t.hero.stats.organizationsSub },
-            { value: '21K+', label: t.hero.stats.halfMarathon },
+            { value: t.hero.stats.publications, label: t.hero.stats.publicationsSub },
           ].map((stat) => (
             <div key={stat.label} className="text-center p-2 sm:p-0">
               <div className="text-xl sm:text-2xl font-serif font-bold text-sage-600">

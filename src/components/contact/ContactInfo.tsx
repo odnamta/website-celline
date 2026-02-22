@@ -1,9 +1,9 @@
 'use client'
 
-import { Mail, MapPin, Phone, User } from 'lucide-react'
+import { MapPin, Phone, User, Linkedin, ExternalLink, MessageCircle } from 'lucide-react'
 import { useLanguage } from '@/lib/i18n/context'
 import { SocialLinks } from '@/components/shared/SocialLinks'
-import { contactEmail, managerContact } from '@/lib/data/social'
+import { managerContact, linkedinUrl, thesisUrl } from '@/lib/data/social'
 
 export function ContactInfo() {
   const { t } = useLanguage()
@@ -15,15 +15,7 @@ export function ContactInfo() {
           {t.contact.info.title}
         </h3>
 
-        <div className="space-y-4">
-          <a
-            href={`mailto:${contactEmail}`}
-            className="flex items-center gap-3 text-warm-gray-500 hover:text-charcoal transition-colors"
-          >
-            <Mail className="w-5 h-5 text-sage" />
-            <span>{contactEmail}</span>
-          </a>
-
+        <div className="space-y-3">
           <div className="flex items-center gap-3 text-warm-gray-500">
             <MapPin className="w-5 h-5 text-sage" />
             <span>{t.contact.info.location}</span>
@@ -42,20 +34,40 @@ export function ContactInfo() {
             <span>{managerContact.name}</span>
           </div>
           <a
-            href={`mailto:${managerContact.email}`}
-            className="flex items-center gap-3 text-warm-gray-500 hover:text-charcoal transition-colors"
-          >
-            <Mail className="w-5 h-5 text-sage" />
-            <span>{managerContact.email}</span>
-          </a>
-          <a
-            href={`https://wa.me/628212393056`}
+            href={managerContact.whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 text-warm-gray-500 hover:text-charcoal transition-colors"
           >
-            <Phone className="w-5 h-5 text-sage" />
-            <span>{managerContact.phone}</span>
+            <MessageCircle className="w-5 h-5 text-sage" />
+            <span>{t.contact.info.whatsapp} — {managerContact.phone}</span>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4 className="text-sm font-semibold text-charcoal mb-3 uppercase tracking-wider">
+          {t.contact.info.linkedin}
+        </h4>
+        <div className="space-y-3">
+          <a
+            href={linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 text-warm-gray-500 hover:text-charcoal transition-colors"
+          >
+            <Linkedin className="w-5 h-5 text-sage" />
+            <span>LinkedIn</span>
+            <ExternalLink className="w-3.5 h-3.5" />
+          </a>
+          <a
+            href={thesisUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 text-warm-gray-500 hover:text-charcoal transition-colors"
+          >
+            <ExternalLink className="w-5 h-5 text-sage" />
+            <span>{t.contact.info.thesisHighlight}</span>
           </a>
         </div>
       </div>

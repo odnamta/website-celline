@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: 'dr. Celline Wijaya, MMSc — Dokter, Kreator, Pelari',
+    default: 'dr. Celline Wijaya, MMSc — Medical Doctor, Health Educator, Lecturer',
     template: '%s | dr. Celline Wijaya',
   },
   description:
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'dr. Celline Wijaya, MMSc',
-    description: 'Dokter. Kreator. Pelari. Harvard Global Health alumna.',
+    description: 'Medical Doctor. Health Educator. Lecturer. Harvard Global Health alumna.',
     type: 'website',
     locale: 'id_ID',
     alternateLocale: 'en_US',
@@ -53,14 +53,14 @@ export const metadata: Metadata = {
         url: '/og-default.jpg',
         width: 1200,
         height: 630,
-        alt: 'dr. Celline Wijaya, MMSc — Dokter, Kreator, Pelari',
+        alt: 'dr. Celline Wijaya, MMSc — Medical Doctor, Health Educator, Lecturer',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'dr. Celline Wijaya, MMSc',
-    description: 'Dokter. Kreator. Pelari. Harvard Global Health alumna.',
+    description: 'Medical Doctor. Health Educator. Lecturer. Harvard Global Health alumna.',
     images: ['/og-default.jpg'],
     creator: '@cellinewijaya',
   },
@@ -102,7 +102,6 @@ export default function RootLayout({
               ],
               image: 'https://cellinewijaya.com/images/celline-hero.jpg',
               description: 'Medical doctor, Harvard Global Health alumna, content creator, founder of Empower Indonesia & Dokter Pelari.',
-              email: 'celline1130@gmail.com',
               url: 'https://cellinewijaya.com',
             }),
           }}

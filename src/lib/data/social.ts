@@ -42,13 +42,15 @@ export const socialPlatforms: SocialPlatform[] = [
   },
 ]
 
-export const contactEmail = 'celline1130@gmail.com'
-
 export const managerContact = {
   name: 'Adella Izdiharnada',
   email: 'adellaizdhiharnada@gmail.com',
   phone: '+62 821-2393-0563',
+  whatsappUrl: 'https://wa.me/628212393056',
 }
+
+export const linkedinUrl = 'https://linkedin.com/in/maria-cellina-wijaya'
+export const thesisUrl = 'https://ghsm.hms.harvard.edu/thesis-maria-cellina-wijaya'
 
 export const totalFollowers = '370K+'
 export const totalFollowersNum = 374000

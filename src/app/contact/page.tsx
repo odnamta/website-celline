@@ -3,12 +3,12 @@ import { PageWrapper } from '@/components/layout/PageWrapper'
 import { ContactContent } from '@/components/contact/ContactContent'
 
 export const metadata: Metadata = {
-  title: 'Kontak',
-  description: 'Hubungi dr. Celline Wijaya untuk kolaborasi, speaking engagement, atau pertanyaan.',
+  title: 'Mari Berkolaborasi',
+  description: 'Hubungi tim dr. Celline Wijaya untuk kolaborasi, speaking engagement, atau partnership.',
   alternates: { canonical: '/contact' },
   openGraph: {
-    title: 'Kontak — dr. Celline Wijaya',
-    description: 'Untuk kolaborasi, speaking engagement, atau pertanyaan.',
+    title: 'Mari Berkolaborasi — dr. Celline Wijaya',
+    description: 'Untuk kolaborasi, speaking engagement, atau partnership.',
   },
 }
 

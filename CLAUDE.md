@@ -2,17 +2,19 @@
 
 ## Project Overview
 
-Personal website for **dr. Celline Wijaya, M.Sc.** — medical doctor, Harvard Global Health alumna, content creator, and social entrepreneur.
+Personal website for **dr. Celline Wijaya, MMSc** — medical doctor, Harvard Global Health alumna, health educator, lecturer, and social entrepreneur.
 
-**Purpose:** Professional portfolio + influencer landing page + brand hub for speaking/collaboration inquiries.
+**Purpose:** Professional portfolio + brand hub for speaking/collaboration inquiries.
 
 **Secondary purpose:** Practice project for eventually building gama-group.co corporate website.
 
 ## About Celline
 
 ### Professional
-- Medical Doctor (dr.) — practicing in Surabaya, Indonesia
-- Master of Science in Global Health — Harvard University (LPDP scholarship recipient)
+- Medical Doctor (dr.) — born in Jember, studied at FK Universitas Airlangga (entered at age 15)
+- MMSc in Global Health Delivery — Harvard Medical School (LPDP scholarship)
+- Research Assistant — Harvard T.H. Chan School of Public Health, Health Systems Group (1 year)
+- Medical Lecturer — FK Universitas Ciputra, Surabaya (April 2025–present)
 - Entering OBGYN residency — May 2026
 
 ### Content Creator
@@ -20,17 +22,20 @@ Personal website for **dr. Celline Wijaya, M.Sc.** — medical doctor, Harvard G
 - TikTok: ~100K followers — @cellinewijaya.md (health tips, Harvard life, running)
 - YouTube: ~37K subscribers — @cellinewijaya
 - Total: 370K+ followers across platforms
-- Focus: medical education, healthy lifestyle, motherhood
+- Focus: medical education, healthy lifestyle, academic journey
 
 ### Social Entrepreneur
-- **Empower Organization** — Founder. Scholarships for economically challenged but talented individuals
-- **Dokter Pelari** — Founder. Promoting health & fitness from a doctor's perspective
+- **Empower Indonesia** — Founder. Scholarships for women's educational access
+- **DokterPelari** — Founder. Evidence-based running education platform
+
+### Contact
+- **Manager:** Adella Izdiharnada — adellaizdhiharnada@gmail.com / +62 821-2393-0563
+- **IMPORTANT:** No private email (celline1130@gmail.com) on website. All contact via WhatsApp Business through manager.
 
 ### Personal
 - Wife of Dio Atmando
-- Mother of Alma (4yo) and Sofia (7mo)
+- Mother of Alma and Sofia
 - Half-marathon runner
-- Amateur photographer and writer
 
 ## Tech Stack
 - **Framework:** Next.js 16 (App Router) + TypeScript

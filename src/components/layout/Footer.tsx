@@ -5,7 +5,7 @@ import { Heart } from 'lucide-react'
 import { useLanguage } from '@/lib/i18n/context'
 import { SocialLinks } from '@/components/shared/SocialLinks'
 import { navItems } from '@/lib/data/navigation'
-import { contactEmail } from '@/lib/data/social'
+import { managerContact } from '@/lib/data/social'
 
 export function Footer() {
   const { t } = useLanguage()
@@ -51,10 +51,12 @@ export function Footer() {
             </h4>
             <SocialLinks variant="light" className="mb-4" />
             <a
-              href={`mailto:${contactEmail}`}
+              href={managerContact.whatsappUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm hover:text-white transition-colors"
             >
-              {contactEmail}
+              WhatsApp: {managerContact.phone}
             </a>
           </div>
         </div>

@@ -20,11 +20,12 @@ export interface Translations {
     }
     stats: {
       followers: string
-      harvard: string
-      harvardSub: string
+      speaking: string
+      speakingSub: string
       organizations: string
       organizationsSub: string
-      halfMarathon: string
+      publications: string
+      publicationsSub: string
     }
   }
   highlights: {
@@ -91,8 +92,13 @@ export interface Translations {
     researchSubtitle: string
     thesisTitle: string
     thesisDescription: string
+    thesisLinkLabel: string
+    researchAssistantTitle: string
+    researchAssistantDescription: string
     teachingTitle: string
     teachingDescription: string
+    speakerTitle: string
+    speakerSubtitle: string
   }
   mediaKit: {
     pageTitle: string
@@ -128,9 +134,11 @@ export interface Translations {
     }
     info: {
       title: string
-      email: string
       manager: string
       managerLabel: string
+      whatsapp: string
+      linkedin: string
+      thesisHighlight: string
       location: string
       social: string
     }
