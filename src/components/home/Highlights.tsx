@@ -24,8 +24,8 @@ export function Highlights() {
           {keys.map((key, i) => {
             const Icon = icons[i]
             return (
-              <AnimateOnScroll key={key} delay={i * 0.1}>
-                <Card>
+              <AnimateOnScroll key={key} delay={i * 0.1} className="h-full">
+                <Card className="h-full">
                   <Icon className="w-8 h-8 text-sage mb-4" />
                   <h3 className="text-lg font-serif font-semibold text-charcoal mb-2">
                     {t.highlights[key].title}

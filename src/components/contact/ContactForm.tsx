@@ -1,61 +1,40 @@
 'use client'
 
 import { useState, type FormEvent } from 'react'
-import { Send, CheckCircle, XCircle } from 'lucide-react'
+import { Send, CheckCircle } from 'lucide-react'
 import { useLanguage } from '@/lib/i18n/context'
 import { Button } from '@/components/shared/Button'
+import { managerContact } from '@/lib/data/social'
 
-type FormStatus = 'idle' | 'sending' | 'success' | 'error'
+type FormStatus = 'idle' | 'sending'
 
 export function ContactForm() {
   const { t } = useLanguage()
   const [status, setStatus] = useState<FormStatus>('idle')
 
-  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
     setStatus('sending')
 
     const form = e.currentTarget
     const data = new FormData(form)
+    const name = data.get('name') as string
+    const email = data.get('email') as string
+    const subject = data.get('subject') as string
+    const message = data.get('message') as string
 
-    try {
-      const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID
-      if (!formspreeId) {
-        setStatus('error')
-        return
-      }
+    const waMessage = [
+      `*${subject}*`,
+      '',
+      `From: ${name}`,
+      `Email: ${email}`,
+      '',
+      message,
+    ].join('\n')
 
-      const res = await fetch(`https://formspree.io/f/${formspreeId}`, {
-        method: 'POST',
-        body: data,
-        headers: { Accept: 'application/json' },
-      })
-      if (res.ok) {
-        setStatus('success')
-        form.reset()
-      } else {
-        setStatus('error')
-      }
-    } catch {
-      setStatus('error')
-    }
-  }
-
-  if (status === 'success') {
-    return (
-      <div className="p-8 rounded-2xl border border-sage-200 bg-sage-50 text-center">
-        <CheckCircle className="w-12 h-12 text-sage mx-auto mb-4" />
-        <p className="text-lg font-serif font-semibold text-charcoal mb-4">
-          {t.contact.form.success}
-        </p>
-        <button
-          onClick={() => setStatus('idle')}
-          className="text-sm text-sage-600 hover:text-sage-dark underline underline-offset-2"
-        >
-          {t.contact.form.sendAnother}
-        </button>
-      </div>
-    )
+    const waUrl = `${managerContact.whatsappUrl}?text=${encodeURIComponent(waMessage)}`
+    window.open(waUrl, '_blank')
+    setStatus('idle')
   }
 
   return (
@@ -116,16 +95,9 @@ export function ContactForm() {
         />
       </div>
 
-      {status === 'error' && (
-        <div className="flex items-center gap-2 text-red-600 text-sm">
-          <XCircle className="w-4 h-4" />
-          {t.contact.form.error}
-        </div>
-      )}
-
       <Button type="submit" disabled={status === 'sending'}>
         <Send className="w-4 h-4" />
-        {status === 'sending' ? t.contact.form.sending : t.contact.form.send}
+        {t.contact.form.send}
       </Button>
     </form>
   )

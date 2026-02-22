@@ -25,8 +25,8 @@ export function PersonalSection() {
 
         <div className="grid sm:grid-cols-3 gap-6">
           {items.map((item, i) => (
-            <AnimateOnScroll key={item.key} delay={i * 0.1}>
-              <Card className="text-center">
+            <AnimateOnScroll key={item.key} delay={i * 0.1} className="h-full">
+              <Card className="text-center h-full">
                 <item.icon className="w-8 h-8 text-sage mx-auto mb-4" />
                 <h3 className="font-serif font-semibold text-charcoal mb-2">
                   {t.about[item.key].title}

@@ -31,4 +31,10 @@ export const galleryPhotos: GalleryPhoto[] = [
     alt: { id: 'Potret di Harvard', en: 'Portrait at Harvard' },
     category: 'speaking',
   },
+  {
+    src: '/images/gallery/celline-portrait.jpg',
+    alt: { id: 'Potret profesional dr. Celline Wijaya', en: 'Professional portrait of dr. Celline Wijaya' },
+    category: 'speaking',
+    span: 'tall',
+  },
 ]
