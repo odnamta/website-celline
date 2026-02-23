@@ -154,7 +154,6 @@ export interface Translations {
     pageSubtitle: string
     categories: {
       all: string
-      running: string
       academic: string
       family: string
       speaking: string

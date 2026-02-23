@@ -10,13 +10,11 @@ import { AnimateOnScroll } from '@/components/shared/AnimateOnScroll'
 import { Button } from '@/components/shared/Button'
 import { galleryPhotos, type GalleryCategory } from '@/lib/data/gallery'
 
-const categories = ['all', 'running', 'academic', 'family', 'speaking'] as const
+const categories = ['all', 'academic', 'family', 'speaking'] as const
 type FilterCategory = (typeof categories)[number]
 
 function getCategoryGradient(category: GalleryCategory): string {
   switch (category) {
-    case 'running':
-      return 'from-sage-400 to-sage-600'
     case 'academic':
       return 'from-warm-gray-400 to-warm-gray-600'
     case 'family':
@@ -28,8 +26,6 @@ function getCategoryGradient(category: GalleryCategory): string {
 
 function getCategoryIcon(category: GalleryCategory): string {
   switch (category) {
-    case 'running':
-      return '🏃‍♀️'
     case 'academic':
       return '🎓'
     case 'family':

@@ -1,4 +1,4 @@
-export type GalleryCategory = 'running' | 'academic' | 'family' | 'speaking'
+export type GalleryCategory = 'academic' | 'family' | 'speaking'
 
 export interface GalleryPhoto {
   src: string

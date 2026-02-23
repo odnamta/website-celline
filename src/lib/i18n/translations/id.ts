@@ -22,7 +22,7 @@ export const id: Translations = {
       followers: 'Followers',
       speaking: '50+',
       speakingSub: 'Speaking Engagement',
-      organizations: '2',
+      organizations: '3',
       organizationsSub: 'Organisasi Didirikan',
       publications: '20+',
       publicationsSub: 'Publikasi',
@@ -164,7 +164,6 @@ export const id: Translations = {
     pageSubtitle: 'Momen dari kedokteran, lari, speaking, dan kehidupan.',
     categories: {
       all: 'Semua',
-      running: 'Lari',
       academic: 'Akademik',
       family: 'Keluarga',
       speaking: 'Speaking',

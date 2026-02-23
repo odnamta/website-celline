@@ -22,7 +22,7 @@ export const en: Translations = {
       followers: 'Followers',
       speaking: '50+',
       speakingSub: 'Speaking Engagements',
-      organizations: '2',
+      organizations: '3',
       organizationsSub: 'Organizations Founded',
       publications: '20+',
       publicationsSub: 'Publications',
@@ -164,7 +164,6 @@ export const en: Translations = {
     pageSubtitle: 'Moments from medicine, running, speaking, and life.',
     categories: {
       all: 'All',
-      running: 'Running',
       academic: 'Academic',
       family: 'Family',
       speaking: 'Speaking',
