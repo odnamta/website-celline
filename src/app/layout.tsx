@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const inter = Inter({
@@ -107,7 +106,6 @@ export default function RootLayout({
           }}
         />
         <link rel="preconnect" href="https://formspree.io" />
-        <link rel="dns-prefetch" href="https://va.vercel-analytics.com" />
       </head>
       <body className="min-h-screen antialiased font-sans">
         <a
@@ -119,7 +117,6 @@ export default function RootLayout({
         <main id="main-content">
           {children}
         </main>
-        <Analytics />
       </body>
     </html>
   )
